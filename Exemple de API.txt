@@ -1,0 +1,7 @@
+function move:
+@parameters can be :"right","left","up","down"
+Returns nothing
+Execute the action of moving your stickman in the @parameter direction
+can be called 5 times in a turn
+
+

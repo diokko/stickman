@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+         <title>API</title>
+    </head>
+    <body>
+        
+  
+        <h1>Déclaration des fonctions de l'API</h1>
+
+        <h2>Function move() :</h2>
+        <p>
+            @parameters can be : "right","left","down" <br>
+            Returns : nothing <br>
+            Description : Execute the action of moving your stickman in the @parameter direction<br>
+            Frequency : can be called up to 3 times in a turn
+        </p>
+
+        <h2>Function look()</h2>
+        <p>
+            @parameters : nothing <br>
+            Returns : element list on the current case.  <br>
+            Description : look on the stickman case, searching for weapons, potions, opponent, etc... <br>
+            Frequency : can be only called one time in a turn
+        </p>
+
+        <h2>Function protect()</h2>
+        <p>
+            @parameters : nothing <br>
+            Returns : nothing     <br>
+            Description : protect your stickman in case of danger  <br>
+            Frequency : can be only called one time in a turn
+        </p>
+
+        <h2>Function attack()</h2>
+        <p>
+            @parameters : int idStickman  <br>
+            Returns : nothing             <br>
+            Description : Attack the stickman marked by the idStickman parameter. Each attack bring 1 damage point (iDamage) <br>
+            Frequency : can be only called one time in a turn
+        </p>
+
+        <h2>Function grab()</h2>
+        <p>
+            @parameters : int idItem  <br>
+            Returns : nothing         <br>
+            Description : grab weapon or potion located in your Stickman case. Only 1 object is grabbed.
+                        object is added to your weapons or potions Stickman list. <br>
+            Frequency : can be only called one time in a turn
+        </p>
+
+        <h2>Function use()</h2>
+        <p>
+            @parameters : int idItem   <br>
+            Returns : nothing           <br>
+            Description : use an object defined by it idItem passed in parameter of the function. The object used may be 1 weapon or 1 potion.
+                        Weapons are always available in your weapon list.
+                        Potions are usable one time to restore your life points<br>
+            Frequency : can be only called one time in a turn
+        </p>
+
+        <h2>Function getPos()</h2>
+        <p>
+            @parameters : nothing   <br>
+            Returns : x,y  <br>
+            Description : return the current position of your stickman in x and y
+        </p>
+
+      </body>
+
+</html>

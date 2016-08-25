@@ -1,0 +1,26 @@
+﻿Au lancement du jeu, l'arène se remplie de 8 champions minimum; 24 maximum.
+Une fois l'arene remplie au nombre de champions voulu, le combat commence. 
+Le but sera d'être le dernier survivant. Le premier gagne 5000 Pts; le 2eme 2500; le 3eme 1000. Ces points peuvnt donner acces a des "achats de competence" (decrit plus bas)
+
+Chaque champion de base possede 5 points de vie et fait 1 point de degats avec l'attaque (au niveau 1)
+
+L'arène se déroule sur une grille de 24x24 cases et les champions sont placés aléatoirement.
+Il y a entre 0 et 5 armes qui apparaissent sur la grille.
+Il y aura entre 0 et 5 potions qui apparaissent sur la grille.
+Les armes ont un niveau de degats MAX = FORCEDUCHAMPIONLEMOINSFORT x 3
+Les potions régénèrent toute la vie d'un champion.
+Pour decouvrir si un autre champion ou un objet est present sur la case, le champion doit interroger la plateforme pour savoir ce qui se trouve sur la case.
+Le jeu se déroule tour par tour, chacun des champions joue l'un après l'autre.
+
+Chaque champion a 5 Points d'Action par tour à dispatcher dans les actions suivantes:
+une seule fois une attaque OU une seule fois une défense; 
+un à trois déplacements,
+une fois une fouille, 
+une fois un ramassage. 
+
+Les points seront sauvegardés par partie et le résultat affiché sur la page d'accueil.
+
+Grace aux points, le champions pourra acheter des competences sur la plateforme. Par exemple:
+- Acheter des potions afin d'embarquer sur l'arene avec.
+- Acheter des armes...
+- Acheter des points de force et de sante.
